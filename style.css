@@ -1,0 +1,15 @@
+body{
+	display: flex;
+	flex-direction: column;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.left, .right{
+	display: flex;
+	margin: 10px;
+	padding: 8px;
+	gap: 20px;
+}
