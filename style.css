@@ -65,7 +65,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 20px;
+	gap: 10px;
 	padding: 10px;
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -117,7 +117,7 @@ img.rounded{
 .s2-images{
 	display: flex;
 	justify-content: center;
-	gap: 10px;
+	gap: 20px;
 }
 
 .section-3{
@@ -177,4 +177,17 @@ img.rounded{
 	font-size: 26px;
 }
 
+.img-container{
+	display: flex;
+	align-items: center;
+	flex-direction: column;	
+}
+
+.s2-images ul{
+	display: flex;
+	padding: 0px;
+	flex-direction: column;
+	align-items: center;
+	list-style: none;
+}
 
